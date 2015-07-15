@@ -1,5 +1,5 @@
 # smart-template-processor
-You can process an template wyth an context object.  
+You can process an template with an context object.  
 
 
 ## Usage  
