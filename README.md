@@ -1,7 +1,7 @@
 # smart-template-processor
 You can process an template with an context object.  
 
-
+  
 ## Usage  
 
 ```
