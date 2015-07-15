@@ -1,0 +1,28 @@
+{
+  "name": "smart-template-processor",
+  "version": "0.0.1",
+  "description": "You can process an template wyth an context object.",
+  "main": "smarttemplateprocessor.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JulioGold/smart-template-processor.git"
+  },
+  "keywords": [
+    "template",
+    "processor",
+    "render",
+    "context"
+  ],
+  "author": "Julio Goldschmidt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JulioGold/smart-template-processor/issues"
+  },
+  "homepage": "https://github.com/JulioGold/smart-template-processor"
+}
