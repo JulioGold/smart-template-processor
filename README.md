@@ -8,6 +8,13 @@ You can process an template with an context object.
 npm install smart-template-processor
 ```
 
+### Selectors
+You can use basically two patterns to select tags:  
+* `{{property}}`  
+* `<%= property %>`  
+  
+Both work the same way, and you can use they at the same time.  
+  
 ### Simple example  
 
 ```javascript
@@ -42,4 +49,8 @@ var obj = {
 
 console.log(smartTemplateProcessor.processTemplate(template, obj));
 ```  
+  
+### News  
+0.0.3 Added support to `<%= property =>` pattern of tag selector.  
+  
 Thanks  

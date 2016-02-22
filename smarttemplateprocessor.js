@@ -12,7 +12,21 @@ function ProcessTemplate(template, contextObj) {
 		return template;
 	}
 	
+    // This get the tags by {{ property }}
 	var tpl = template.replace(/\{\{([\w\.]+)\}\}/igm,
+		function (groupFirst,groupSecond) {
+
+			var retorno = deepFind(contextObj, groupSecond);
+			
+			if (retorno != null) {
+				return retorno;
+			}else{
+				return "";
+			}
+		});
+
+    // This get the tags by <%= property %>
+    tpl = tpl.replace(/\<\%\=\s*?([\w\.]+)\s*?\%\>/igm,
 		function (groupFirst,groupSecond) {
 
 			var retorno = deepFind(contextObj, groupSecond);
